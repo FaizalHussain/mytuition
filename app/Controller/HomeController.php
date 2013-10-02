@@ -36,15 +36,96 @@ class HomeController extends AppController {
      *
      * @var array
      */
-    public $uses = array();
+    public $uses = array('Tutor');
+    public $helpers = array('Html', 'Form', 'Captcha');
+    public $components = array('Captcha'=>
+                                        array('captchaType'=>'image',
+                                            'jquerylib'=>true,
+                                            'modelName'=>'Signup',
+                                            'fieldName'=>'captcha')
+                                        ); //load it
 
     public function index() {
         if ($this->request->is('post')) {
-            if($this->RequestHandler->isAjax()) {
-                $this->layout = 'ajax';
-                // Check if ajax called here for change tabs
-                // To be implemented if need to remove draft and complete to index alone
+
+        }else{
+        }
+    }
+
+    public function request() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function rates() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function testimonial() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function login() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function information() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function signup() {
+        if ($this->request->is('post')) {
+            $tutor = $this->request->data;
+            unset($tutor['password2']);
+            unset($tutor['captcha']);
+            if ($this->Tutor->save($tutor['Signup'])) {
+                // set success message
+                $this->Utility->alert("You have successfully signed up as tutor.", array('type' => 'info', 'dismissOnClick' => true));
+            } else {
+                $this->Utility->alert("Please correct the form errors.", array('type' => 'error', 'dismissOnClick' => true));
             }
+        }else{
+        }
+    }
+
+    public function contact() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function faq() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function about() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function tuition_rate() {
+        if ($this->request->is('post')) {
+
         }else{
         }
     }

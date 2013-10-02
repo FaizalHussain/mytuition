@@ -53,16 +53,14 @@ $cakeDescription = __d('cake_dev', 'Tuition Centre');
 				<?php echo $this->element('menu/top_menu'); ?>
 			</div><!-- /#header .container -->
 
-			<div class="jumbotron">
-              <div class="container">
-                <h1>Hello, world!</h1>
-                <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-                <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-              </div>
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Hello, world!</h1>
+                </div>
             </div>
 
 			<div id="content" class="container">
-                <?php echo $this->Session->flash(); ?>
+                <?php echo $this->element('alert'); ?>
                 <?php echo $this->fetch('content'); ?>
 			</div><!-- /#header .container -->
 
@@ -74,7 +72,7 @@ $cakeDescription = __d('cake_dev', 'Tuition Centre');
 			
 		</div><!-- /#main-container -->
 		
-		<div class="container">
+		<div class="container" style="display:none">
 			<div class="well well-sm">
 				<small>
 					<?php echo $this->element('sql_dump'); ?>

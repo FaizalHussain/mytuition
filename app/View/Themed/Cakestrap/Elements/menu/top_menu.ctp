@@ -10,27 +10,27 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><?php echo $this->Html->link('Home', array('controller' => 'Home', 'action' => 'index')); ?></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parents <b class="caret"></b></a>
           <ul class="dropdown-menu">
-              <li><a href="#">Tutor request</a></li>
-              <li><a href="#">Rates</a></li>
-              <li><a href="#">Testimonial</a></li>
+              <li><a href="#"><?php echo $this->Html->link('Request tutor', array('controller' => 'Home', 'action' => 'request')); ?></li>
+              <li><?php echo $this->Html->link('Rates', array('controller' => 'Home', 'action' => 'rates')); ?></li>
+              <li><?php echo $this->Html->link('Testimonial', array('controller' => 'Home', 'action' => 'testimonial')); ?></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutors <b class="caret"></b></a>
           <ul class="dropdown-menu">
-              <li><a href="#">Tutors login</a></li>
-              <li><a href="#">Information for new tutors</a></li>
-              <li><a href="#">Why Sign up</a></li>
+              <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Home', 'action' => 'login')); ?></li>
+              <li><?php echo $this->Html->link('Information for new tutors', array('controller' => 'Home', 'action' => 'information')); ?></li>
+              <li><?php echo $this->Html->link('Why Sign up', array('controller' => 'Home', 'action' => 'signup')); ?></li>
           </ul>
         </li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#contact">Help/FAQ</a></li>
-        <li><a href="#contact">About</a></li>
-        <li><a href="#contact">Tuition Rates</a></li>
+        <li><?php echo $this->Html->link('Contact Us', array('controller' => 'Home', 'action' => 'contact')); ?></li>
+        <li><?php echo $this->Html->link('Help/FAQ', array('controller' => 'Home', 'action' => 'faq')); ?></li>
+        <li><?php echo $this->Html->link('About Us', array('controller' => 'Home', 'action' => 'about')); ?></li>
+        <li><?php echo $this->Html->link('Tuition Rates', array('controller' => 'Home', 'action' => 'tuition_rate')); ?></li>
       </ul>
     </div><!--/.navbar-collapse -->
   </div>
