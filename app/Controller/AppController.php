@@ -36,15 +36,15 @@ class AppController extends Controller {
     public $components = array(
         'Session',
         'Paginator',
-        'DebugKit.Toolbar',
+        //'DebugKit.Toolbar',
         'Utility',
         'Auth' => array(
-            'loginRedirect' => array('controller' => 'posts', 'action' => 'index'),
-            'logoutRedirect' => array('controller' => 'pages', 'action' => 'display', 'home')
+            'loginAction' => array('controller' => 'Tutor', 'action' => 'login'),
+            'logoutRedirect' => array('controller' => 'Tutor', 'action' => 'login')
         )
     );
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'view');
+        $this->Auth->allow('index', 'request', 'rates', 'testimonial', 'tutor_login', 'information', 'signup', 'contact', 'faq', 'about', 'tuition_rate', 'captcha');
     }
 }

@@ -52,6 +52,13 @@ class HomeController extends AppController {
         }
     }
 
+    public function tutor_login(){
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
     public function request() {
         if ($this->request->is('post')) {
 

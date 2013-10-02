@@ -22,7 +22,7 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutors <b class="caret"></b></a>
           <ul class="dropdown-menu">
-              <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Home', 'action' => 'login')); ?></li>
+              <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Home', 'action' => 'tutor_login')); ?></li>
               <li><?php echo $this->Html->link('Information for new tutors', array('controller' => 'Home', 'action' => 'information')); ?></li>
               <li><?php echo $this->Html->link('Why Sign up', array('controller' => 'Home', 'action' => 'signup')); ?></li>
           </ul>
