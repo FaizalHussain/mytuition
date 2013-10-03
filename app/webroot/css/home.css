@@ -13,6 +13,18 @@
     background: #bfa57c;
     color: #fff;
 }
+body { padding-top: 110px; }
+
+.searchdiv{
+    padding-top: 10px; padding-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 200px; }
+    .searchdiv{
+        padding-top: 10px; padding-left: 20px;
+    }
+}
 
 #logo {
     position: absolute;

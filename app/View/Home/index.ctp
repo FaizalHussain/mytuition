@@ -16,7 +16,7 @@ echo $this->Html->script('unslider.min', false);
     });
 </script>
 <!-- Contents here -->
-<div id="home">
+<div id="home" style="padding-top:60px;">
     <div>
         <div class="row">
             <div class="col-2 col-sm-2 col-lg-6">

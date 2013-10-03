@@ -9,24 +9,29 @@ echo $this->Html->css('home', null, array('inline' => false));
         </div>
 
         <?php
-        echo $this->Form->create('TutorRequest', array(
-            'url' => array('controller' => 'Home', 'action' => 'request'),
-            'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
-        ));
+            echo $this->Form->create('Tutor', array(
+                'url' => array(
+                'controller' => 'Tutor',
+                'action' => 'login'),
+                'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
+            ));
         ?>
+
+        <?php echo $this->Session->flash('auth'); ?>
 
         <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading">Login Details</div>
             <div class="panel-body">
                 <label>Email</label>
-                <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
+                <div class="value"><?php echo $this->Form->input('email', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
                 <label>Password</label>
-                <div class="value"><?php echo $this->Form->input('contact', array('type' => 'number', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
+                <div class="value"><?php echo $this->Form->input('password', array('type' => 'password', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
-                <input type="submit" name="Login" value="<?php echo 'Login Account'; ?>" class="button" style="height:30px;" />
-                <input type="reset" name="Reset Fields" value="<?php echo 'Reset Fields'; ?>" class="button" style="height:30px;" />
+                <div style="float:left;"><?php echo $this->Form->submit('Login Account', array('class' => 'button', 'style' => 'height:30px;')); ?></div>
+                <div style="float:left; padding-left: 10px;"><?php echo $this->Html->link(__('Sign Up'), array('action' => 'signup'), array('class' => 'button', 'style' => 'height:30px;')); ?></div>
+                <div style="clear: both;"></div>
             </div>
         </div>
         <?php echo $this->Form->end(); ?>

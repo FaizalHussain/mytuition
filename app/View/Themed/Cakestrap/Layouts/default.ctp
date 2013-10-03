@@ -16,7 +16,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'Tuition Centre');
+$cakeDescription = __d('cake_dev', 'Raffles Education');
 ?>
 <?php echo $this->Html->docType('html5'); ?> 
 <html>
@@ -53,21 +53,18 @@ $cakeDescription = __d('cake_dev', 'Tuition Centre');
 				<?php echo $this->element('menu/top_menu'); ?>
 			</div><!-- /#header .container -->
 
-            <div class="jumbotron">
-                <div class="container">
-                    <h1>Hello, world!</h1>
-                </div>
-            </div>
+
 
 			<div id="content" class="container">
                 <?php echo $this->element('alert'); ?>
                 <?php echo $this->fetch('content'); ?>
 			</div><!-- /#header .container -->
 
+
             <hr>
 
 			<div id="footer" class="container">
-				<p>Copyright &copy; 2013 | SchoolEducation.com.sg, Singapore All Rights Reserved</p>
+				<p>Copyright &copy; 2013 | Raffles Education, Singapore All Rights Reserved</p>
 			</div><!-- /#footer .container -->
 			
 		</div><!-- /#main-container -->

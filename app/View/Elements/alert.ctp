@@ -1,4 +1,4 @@
-<?php 
+<?php
 $alertTypes = array();
 $alertTypes['ok'] = 'alert';
 $alertTypes['success'] = 'alert-success';
