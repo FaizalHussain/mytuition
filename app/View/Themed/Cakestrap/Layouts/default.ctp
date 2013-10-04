@@ -16,7 +16,7 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'Raffles Education');
+$cakeDescription = __d('cake_dev', 'Straits Tutors');
 ?>
 <?php echo $this->Html->docType('html5'); ?> 
 <html>
@@ -32,31 +32,29 @@ $cakeDescription = __d('cake_dev', 'Raffles Education');
 			echo $this->fetch('meta');
 
 			echo $this->Html->css('bootstrap.min');
+            echo $this->Html->css('bootstrap-editable');
 			// Uncomment this to enable the bootstrap gradient theme (Flat is way better though).
 			//echo $this->Html->css('bootstrap-theme.min');
 			echo $this->Html->css('core');
             echo $this->Html->css('style');
 			echo $this->fetch('css');
-			
+
 			echo $this->Html->script('libs/jquery-1.10.2.min');
 			echo $this->Html->script('libs/bootstrap.min');
-			
+            echo $this->Html->script('libs/bootstrap-editable.js');
+
 			echo $this->fetch('script');
 		?>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 	</head>
 
 	<body>
 
 		<div id="main-container">
 		
-			<div id="header" class="container">
-				<?php echo $this->element('menu/top_menu'); ?>
-			</div><!-- /#header .container -->
-
-
+			<?php echo $this->element('menu/top_menu'); ?>
 
 			<div id="content" class="container">
-                <?php echo $this->element('alert'); ?>
                 <?php echo $this->fetch('content'); ?>
 			</div><!-- /#header .container -->
 
@@ -64,7 +62,7 @@ $cakeDescription = __d('cake_dev', 'Raffles Education');
             <hr>
 
 			<div id="footer" class="container">
-				<p>Copyright &copy; 2013 | Raffles Education, Singapore All Rights Reserved</p>
+				<p>Copyright &copy; 2013 | Straits Tutors, Singapore All Rights Reserved</p>
 			</div><!-- /#footer .container -->
 			
 		</div><!-- /#main-container -->

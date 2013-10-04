@@ -36,7 +36,7 @@ class HomeController extends AppController {
      *
      * @var array
      */
-    public $uses = array('Tutor');
+    public $uses = array('Tutor', 'User');
     public $helpers = array('Html', 'Form', 'Captcha');
     public $components = array('Captcha'=>
                                         array('captchaType'=>'image',
@@ -96,10 +96,12 @@ class HomeController extends AppController {
 
     public function signup() {
         if ($this->request->is('post')) {
-            $tutor = $this->request->data;
+            $tutor = $this->request->data['Signup'];
+            $myuser = array('username'=>$tutor['email'], 'password'=>$tutor['password'],'role'=>'tutor');
+            unset($tutor['password']);
             unset($tutor['password2']);
             unset($tutor['captcha']);
-            if ($this->Tutor->save($tutor['Signup'])) {
+            if ($this->Tutor->save($tutor) && $this->User->save($myuser)) {
                 // set success message
                 $this->Utility->alert("You have successfully signed up as tutor.", array('type' => 'info', 'dismissOnClick' => true));
             } else {

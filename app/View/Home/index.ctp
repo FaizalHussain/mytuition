@@ -38,9 +38,9 @@ echo $this->Html->script('unslider.min', false);
             <div class="col-2 col-sm-2 col-lg-6">
                 <div class="banner">
                     <ul>
-                        <li>This is a slide.</li>
-                        <li>This is another slide.</li>
-                        <li>This is a final slide.</li>
+                        <li style="background-image: url(<?php echo $this->Html->url('/img/slider/1.jpg',true) ?>);"></li>
+                        <li style="background-image: url(<?php echo $this->Html->url('/img/slider/2.jpg',true) ?>);"></li>
+                        <li style="background-image: url(<?php echo $this->Html->url('/img/slider/3.jpg',true) ?>);"></li>
                     </ul>
                 </div>
             </div>

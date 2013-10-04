@@ -14,6 +14,9 @@ echo $this->Html->css('home', null, array('inline' => false));
             'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
         ));
     ?>
+
+    <?php echo $this->element('alert'); ?>
+
     <p><h3><small><b>Kindly fill out the following details to assist us in finding the right tutor for you.<br/>Alternatively, you may leave your contact details to allow us to contact you shortly.</b></small></h3></p>
 
     <div class="panel panel-default">

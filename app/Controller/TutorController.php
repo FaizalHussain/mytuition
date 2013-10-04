@@ -33,13 +33,21 @@ class TutorController extends AppController {
     public function login() {
         if ($this->request->is('post')) {
             if ($this->Auth->login()) {
-                return $this->redirect($this->Auth->redirect());
+                $this->redirect(array('controller' => 'Tutor', 'action' => 'profile'));
+            }else{
+                $this->Utility->alert("Invalid username or password, try again", array('type' => 'error', 'dismissOnClick' => true));
             }
-            $this->Session->setFlash(__('Invalid username or password, try again'));
         }
     }
 
     public function logout() {
         return $this->redirect($this->Auth->logout());
     }
+    public function profile() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
 }

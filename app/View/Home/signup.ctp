@@ -3,7 +3,6 @@ echo $this->Html->css('home', null, array('inline' => false));
 ?>
     <!-- Contents here -->
     <div id="home">
-
         <div class="page-header">
             <h2>Tutor Signup </h2>
         </div>
@@ -14,6 +13,9 @@ echo $this->Html->css('home', null, array('inline' => false));
             'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'label')
         ));
         ?>
+
+        <?php echo $this->element('alert'); ?>
+
         <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading">Tutor Details</div>

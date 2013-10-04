@@ -1,9 +1,9 @@
-<div class="navbar navbar-inverse navbar-fixed-top" style="background-color: #000000;">
+<div class="navbar navbar-inverse navbar-static-top" style="background-color: #000000; margin-bottom: -25px;">
     <div style="background-color: #ffffff; ">
         <div class="container">
             <div class='row'>
                 <div class='col-sm-8'>
-                    <?php echo $this->Html->image('logo.jpg?'.rand(1,100)); ?>
+                    <?php echo $this->Html->image('logo.jpg'); ?>
                 </div>
                 <div class='col-sm-4'>
                     <div class="form-group">
@@ -11,19 +11,19 @@
                             <input type="text" class="form-control" placeholder="Search">
                             <div style="padding-top:10px;">
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/twitter.jpg?'.rand(1,100)); ?>
+                                    <?php echo $this->Html->image('icons/twitter.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/facebook.jpg?'.rand(1,100)); ?>
+                                    <?php echo $this->Html->image('icons/facebook.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/instagram.jpg?'.rand(1,100)); ?>
+                                    <?php echo $this->Html->image('icons/instagram.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/email.jpg?'.rand(1,100)); ?>
+                                    <?php echo $this->Html->image('icons/email.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/rss.jpg?'.rand(1,100)); ?>
+                                    <?php echo $this->Html->image('icons/rss.jpg'); ?>
                                 </div>
                             </div>
 
@@ -56,7 +56,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff">Tutors <b class="caret"></b></a>
               <ul class="dropdown-menu">
-                  <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Home', 'action' => 'tutor_login')); ?></li>
+                  <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Tutor', 'action' => 'login')); ?></li>
                   <li><?php echo $this->Html->link('Information for new tutors', array('controller' => 'Home', 'action' => 'information')); ?></li>
                   <li><?php echo $this->Html->link('Why Sign up', array('controller' => 'Home', 'action' => 'signup')); ?></li>
               </ul>

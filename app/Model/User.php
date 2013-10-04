@@ -16,20 +16,34 @@ have received a copy of the GNU General Public License along with this program. 
 
 App::uses('AppModel', 'Model');
 
-class Tutor extends AppModel {
-    public $useTable = "tutor";
+class User extends AppModel {
+    public $useTable = "users";
     public $validate = array(
-        'name' => array(
+        'username' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'A name is required'
+                'message' => 'A username is required'
             )
         ),
-        'nric' => array(
+        'password' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'An NRIC is required'
+                'message' => 'A password is required'
+            )
+        ),
+        'role' => array(
+            'valid' => array(
+                'rule' => array('inList', array('admin', 'tutor', 'coordinator')),
+                'message' => 'Please enter a valid role',
+                'allowEmpty' => false
             )
         )
     );
+
+    public function beforeSave($options = array()) {
+        if (isset($this->data[$this->alias]['password'])) {
+            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
+        }
+        return true;
+    }
 }

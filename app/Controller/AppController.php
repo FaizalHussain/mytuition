@@ -39,9 +39,14 @@ class AppController extends Controller {
         //'DebugKit.Toolbar',
         'Utility',
         'Auth' => array(
-            'loginAction' => array('controller' => 'Tutor', 'action' => 'login'),
-            'logoutRedirect' => array('controller' => 'Tutor', 'action' => 'login')
+        'loginAction' => array(
+            'controller' => 'Tutor',
+            'action' => 'login'
+        ),
+        'authenticate' => array(
+            'form' => array('userModel' => 'User')
         )
+    )
     );
 
     public function beforeFilter() {

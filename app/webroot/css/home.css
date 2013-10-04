@@ -13,14 +13,12 @@
     background: #bfa57c;
     color: #fff;
 }
-body { padding-top: 110px; }
 
 .searchdiv{
     padding-top: 10px; padding-left: 80px;
 }
 
 @media screen and (max-width: 768px) {
-    body { padding-top: 200px; }
     .searchdiv{
         padding-top: 10px; padding-left: 20px;
     }
@@ -60,7 +58,7 @@ body { padding-top: 110px; }
     width: 33%;
     padding: 160px 0 110px;
 
-    min-height: 350px;
+    min-height: 400px;
 
     /*		-webkit-background-size: 100% 100%;*/
     -moz-background-size: 100% 100%;
