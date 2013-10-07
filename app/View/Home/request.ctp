@@ -56,6 +56,11 @@ echo $this->Html->css('home', null, array('inline' => false));
             <div class="value"><?php echo $this->Form->input('tutor_preferrence', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
         </div>
     </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> Accept our <?php echo $this->Html->link(__('Legal Terms & Conditions'), array('action' => 'legal'), array('class' => 'btn_cancel btn_left','target' => '_blank')); ?>
+        </label>
+    </div>
     <div class="controls view_controls">
         <?php echo $this->Html->link(__('Submit'), array('action' => 'request'), array('class' => 'button')); ?>
         <?php echo $this->Html->link(__('Cancel'), array('action' => 'request'), array('class' => 'button')); ?>

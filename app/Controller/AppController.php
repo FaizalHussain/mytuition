@@ -32,7 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $theme = "Cakestrap";
-    public $helpers = array('Html', 'Form', 'Js' => array('Jquery'), 'Session', 'Utility');
+    public $helpers = array('Html','GoogleMap', 'Form', 'Js' => array('Jquery'), 'Session', 'Utility');
     public $components = array(
         'Session',
         'Paginator',
@@ -50,6 +50,18 @@ class AppController extends Controller {
     );
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'request', 'rates', 'testimonial', 'tutor_login', 'information', 'signup', 'contact', 'faq', 'about', 'tuition_rate', 'captcha');
+        $this->Auth->allow('index', 'request', 'rates', 'testimonial', 'tutor_login', 'information', 'signup', 'why_signup', 'legal', 'contact', 'faq', 'about', 'tuition_rate', 'captcha');
+        $this->Session->write('Page.url', $this->curPageURL());
+    }
+
+    function curPageURL() {
+        $pageURL = 'http';
+        $pageURL .= "://";
+        if ($_SERVER["SERVER_PORT"] != "80") {
+            $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+        } else {
+            $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+        }
+        return $pageURL;
     }
 }

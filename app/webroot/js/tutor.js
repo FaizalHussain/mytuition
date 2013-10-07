@@ -3,51 +3,106 @@ $(document).ready(function() {
     var teachFlag = true;
     populateTeach();
     populateLocation();
+    populateQualification();
+    populateTutor();
 });
 
 function populateTeach(){
-    $('#teach-jc2').editable();
-    $('#teach-jc2').editable('option', 'disabled', true);
+    $('#teach_jc2').editable();
+    $('#teach_jc2').editable('option', 'disabled', true);
 
-    $('#teach-secondary').editable();
-    $('#teach-secondary').editable('option', 'disabled', true);
+    $('#teach_secondary').editable();
+    $('#teach_secondary').editable('option', 'disabled', true);
 
-    $('#teach-primary').editable();
-    $('#teach-primary').editable('option', 'disabled', true);
+    $('#teach_primary').editable();
+    $('#teach_primary').editable('option', 'disabled', true);
 }
 
 function populateLocation(){
-    $('#location-east').editable();
-    $('#location-east').editable('option', 'disabled', true);
+    $('#location_east').editable();
+    $('#location_east').editable('option', 'disabled', true);
 
-    $('#location-west').editable();
-    $('#location-east').editable('option', 'disabled', true);
+    $('#location_west').editable();
+    $('#location_west').editable('option', 'disabled', true);
+}
+
+function populateQualification(){
+    $('#qualification_university').editable();
+    $('#qualification_university').editable('option', 'disabled', true);
+
+    $('#qualification_polytechnic').editable();
+    $('#qualification_polytechnic').editable('option', 'disabled', true);
+
+    $('#qualification_jc').editable();
+    $('#qualification_jc').editable('option', 'disabled', true);
+
+    $('#qualification_remarks').editable();
+    $('#qualification_remarks').editable('option', 'disabled', true);
+}
+
+function populateTutor(){
+    $('#tutor_jc').editable();
+    $('#tutor_jc').editable('option', 'disabled', true);
+
+    $('#tutor_polytechnic').editable();
+    $('#tutor_polytechnic').editable('option', 'disabled', true);
 }
 
 function switchTeach(){
-    var status = $('#teach-edit').text();
+    var status = $('#teach_edit').text();
     if(status=="Edit"){
-        $('#teach-jc2').editable('option', 'disabled', false);
-        $('#teach-secondary').editable('option', 'disabled', false);
-        $('#teach-primary').editable('option', 'disabled', false);
-        $('#teach-edit').text('Un-Edit');
+        $('#teach_jc2').editable('option', 'disabled', false);
+        $('#teach_secondary').editable('option', 'disabled', false);
+        $('#teach_primary').editable('option', 'disabled', false);
+        $('#teach_edit').text('Un_Edit');
     }else{
-        $('#teach-jc2').editable('option', 'disabled', true);
-        $('#teach-secondary').editable('option', 'disabled', true);
-        $('#teach-primary').editable('option', 'disabled', true);
-        $('#teach-edit').text('Edit');
+        $('#teach_jc2').editable('option', 'disabled', true);
+        $('#teach_secondary').editable('option', 'disabled', true);
+        $('#teach_primary').editable('option', 'disabled', true);
+        $('#teach_edit').text('Edit');
     }
 }
 
 function switchLocation(){
-    var status = $('#teach-location').text();
+    var status = $('#location_edit').text();
     if(status=="Edit"){
-        $('#location-east').editable('option', 'disabled', false);
-        $('#location-west').editable('option', 'disabled', false);
-        $('#location-edit').text('Un-Edit');
+        $('#location_east').editable('option', 'disabled', false);
+        $('#location_west').editable('option', 'disabled', false);
+        $('#location_edit').text('Un_Edit');
     }else{
-        $('#location-east').editable('option', 'disabled', true);
-        $('#location-west').editable('option', 'disabled', true);
-        $('#location-edit').text('Edit');
+        $('#location_east').editable('option', 'disabled', true);
+        $('#location_west').editable('option', 'disabled', true);
+        $('#location_edit').text('Edit');
     }
 }
+
+function switchQualification(){
+    var status = $('#qualification_edit').text();
+    if(status=="Edit"){
+        $('#qualification_university').editable('option', 'disabled', false);
+        $('#qualification_polytechnic').editable('option', 'disabled', false);
+        $('#qualification_jc').editable('option', 'disabled', false);
+        $('#qualification_remarks').editable('option', 'disabled', false);
+        $('#qualification_edit').text('Un_Edit');
+    }else{
+        $('#qualification_university').editable('option', 'disabled', true);
+        $('#qualification_polytechnic').editable('option', 'disabled', true);
+        $('#qualification_jc').editable('option', 'disabled', true);
+        $('#qualification_remarks').editable('option', 'disabled', true);
+        $('#qualification_edit').text('Edit');
+    }
+}
+
+function switchTutor(){
+    var status = $('#tutor_edit').text();
+    if(status=="Edit"){
+        $('#tutor_jc').editable('option', 'disabled', false);
+        $('#tutor_polytechnic').editable('option', 'disabled', false);
+        $('#tutor_edit').text('Un_Edit');
+    }else{
+        $('#tutor_jc').editable('option', 'disabled', true);
+        $('#tutor_polytechnic').editable('option', 'disabled', true);
+        $('#tutor_edit').text('Edit');
+    }
+}
+

@@ -14,13 +14,13 @@
                                     <?php echo $this->Html->image('icons/twitter.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/facebook.jpg'); ?>
+                                    <a href="https://www.facebook.com/pages/Straits-Tutors/616459565070820" target="_blank"><?php echo $this->Html->image('icons/facebook.jpg'); ?></a>
                                 </div>
                                 <div style="float: left">
                                     <?php echo $this->Html->image('icons/instagram.jpg'); ?>
                                 </div>
                                 <div style="float: left">
-                                    <?php echo $this->Html->image('icons/email.jpg'); ?>
+                                    <a href="mailto:support@straitstutors.com" id="mymailto"><?php echo $this->Html->image('icons/email.jpg'); ?></a>
                                 </div>
                                 <div style="float: left">
                                     <?php echo $this->Html->image('icons/rss.jpg'); ?>
@@ -57,8 +57,8 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #ffffff">Tutors <b class="caret"></b></a>
               <ul class="dropdown-menu">
                   <li><?php echo $this->Html->link('Tutors login', array('controller' => 'Tutor', 'action' => 'login')); ?></li>
-                  <li><?php echo $this->Html->link('Information for new tutors', array('controller' => 'Home', 'action' => 'information')); ?></li>
-                  <li><?php echo $this->Html->link('Why Sign up', array('controller' => 'Home', 'action' => 'signup')); ?></li>
+                  <li><?php echo $this->Html->link('Information for new tutors', array('controller' => 'Home', 'action' => 'signup')); ?></li>
+                  <li><?php echo $this->Html->link('Why Sign up', array('controller' => 'Home', 'action' => 'why_signup')); ?></li>
               </ul>
             </li>
             <li><?php echo $this->Html->link('Contact Us', array('controller' => 'Home', 'action' => 'contact'), array('style' => 'color: #ffffff')); ?></li>

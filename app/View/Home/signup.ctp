@@ -4,7 +4,7 @@ echo $this->Html->css('home', null, array('inline' => false));
     <!-- Contents here -->
     <div id="home">
         <div class="page-header">
-            <h2>Tutor Signup </h2>
+            <h2>Information for new tutors</h2>
         </div>
 
         <?php
@@ -16,9 +16,14 @@ echo $this->Html->css('home', null, array('inline' => false));
 
         <?php echo $this->element('alert'); ?>
 
+        <p><h3><small><b>Join us today by registering for a tutor’s account as per the required fields below.
+                    You will then be taken to a tutor’s profile page whereby you should attempt to fill out the necessary information as thoroughly as possible.
+         </b></small></h3></p>
+
+
         <div class="panel panel-default">
             <!-- Default panel contents -->
-            <div class="panel-heading">Tutor Details</div>
+            <div class="panel-heading">Account Information</div>
             <div class="panel-body">
                 <label>Name</label>
                 <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'required'=>true, 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>

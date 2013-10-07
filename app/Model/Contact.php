@@ -16,27 +16,30 @@ have received a copy of the GNU General Public License along with this program. 
 
 App::uses('AppModel', 'Model');
 
-class Tutor extends AppModel {
-    public $useTable = "tutor";
+class Contact extends AppModel {
+    public $useTable = false;
     public $validate = array(
         'name' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'A name is required'
+            'message'    => 'Please enter your name',
+            'allowEmpty' => false
+        ),
+        'subject' => array(
+            'message'    => 'Please enter your subject',
+            'allowEmpty' => false
+        ),
+        'email'=> array(
+            'please enter your email'=>array(
+                'rule'=>'notEmpty',
+                'message'=>'Please Enter your email'
+            ),
+            'email does not correct format' => array(
+                'rule'=>array('email','true'),
+                'message'=>'Email is not correct format'
             )
         ),
-        'nric' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'An NRIC is required'
-            )
+        'message' => array(
+            'message'    => 'Please enter your message',
+            'allowEmpty' => false
         )
     );
-
-    public function getTutor($username, $str=null) {
-        $tutor = $this->find('all', array('conditions' => array('tutor.email' => $username )));
-        $tutor = $tutor[0]['Tutor'];
-
-        return $tutor;
-    }
 }

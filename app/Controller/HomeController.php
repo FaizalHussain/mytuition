@@ -20,6 +20,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
 
 /**
  * Static content controller
@@ -36,7 +37,7 @@ class HomeController extends AppController {
      *
      * @var array
      */
-    public $uses = array('Tutor', 'User');
+    public $uses = array('Tutor', 'User', 'Contact');
     public $helpers = array('Html', 'Form', 'Captcha');
     public $components = array('Captcha'=>
                                         array('captchaType'=>'image',
@@ -94,6 +95,13 @@ class HomeController extends AppController {
         }
     }
 
+    public function why_signup() {
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
     public function signup() {
         if ($this->request->is('post')) {
             $tutor = $this->request->data['Signup'];
@@ -111,9 +119,26 @@ class HomeController extends AppController {
         }
     }
 
-    public function contact() {
+    public function legal() {
         if ($this->request->is('post')) {
 
+        }else{
+        }
+    }
+
+    public function contact() {
+        if ($this->request->is('post')) {
+            $user =$this->request->data['ContactForm'];
+
+            if($this->Contact->validates($user)){
+                // Setup email
+                $Email = new CakeEmail('gmail');
+                $Email->from(array($user['email']=> $user['name']));
+                $Email->to('faizal@ibizwerkz.com');
+                $Email->subject($user['subject']);
+                $Email->send($user['message']);
+                $this->Utility->alert("Your message has been sent to us. Please allow us some time to get back to you, Thank you.", array('type' => 'info', 'dismissOnClick' => true));
+            }
         }else{
         }
     }
