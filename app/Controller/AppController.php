@@ -32,7 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     public $theme = "Cakestrap";
-    public $helpers = array('Html','GoogleMap', 'Form', 'Js' => array('Jquery'), 'Session', 'Utility');
+    public $helpers = array('Html','GoogleMap', 'Form', 'Session', 'Js' => array('Jquery'), 'Session', 'Utility');
     public $components = array(
         'Session',
         'Paginator',
@@ -40,7 +40,7 @@ class AppController extends Controller {
         'Utility',
         'Auth' => array(
         'loginAction' => array(
-            'controller' => 'Tutor',
+            'controller' => 'User',
             'action' => 'login'
         ),
         'authenticate' => array(
@@ -50,8 +50,12 @@ class AppController extends Controller {
     );
 
     public function beforeFilter() {
-        $this->Auth->allow('index', 'request', 'rates', 'testimonial', 'tutor_login', 'information', 'signup', 'why_signup', 'legal', 'contact', 'faq', 'about', 'tuition_rate', 'captcha');
+        $this->Auth->allow('index', 'request', 'rates', 'testimonial', 'tutor_login', 'information', 'signup', 'why_signup', 'legal', 'contact', 'faq', 'about', 'tuition_rate', 'captcha', 'getJSConfig');
         $this->Session->write('Page.url', $this->curPageURL());
+        $this->Session->write('Page.rootUrl', $this->getRootURL());
+        if($this->Auth->user()){
+            $this->set('authUser', $this->Auth->user());
+        }
     }
 
     function curPageURL() {
@@ -63,5 +67,13 @@ class AppController extends Controller {
             $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
         }
         return $pageURL;
+    }
+
+    public function getRootURL() {
+        $protocol = $_SERVER['SERVER_PROTOCOL'];
+        $host = $_SERVER['HTTP_HOST'];
+        $protocol = strtolower(substr($protocol, 0, strpos($protocol, '/'))) . '://';
+        $url = $protocol . $host . $this->webroot;
+        return $url;
     }
 }

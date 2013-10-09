@@ -1,6 +1,6 @@
 <?php
 $alertTypes = array();
-$alertTypes['ok'] = 'alert';
+$alertTypes['ok'] = 'alert-success';
 $alertTypes['success'] = 'alert-success';
 $alertTypes['error'] = 'alert-danger';
 $alertTypes['info'] = 'alert-info';

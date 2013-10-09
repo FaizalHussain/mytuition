@@ -31,23 +31,18 @@ App::uses('AppController', 'Controller');
  */
 class TutorController extends AppController {
 
-    public $uses = array('Tutor', 'User');
+    public $uses = array('Tutor', 'User', 'TuitionDetail', 'Request', 'TutorJob');
+    public $helpers = array('Html','Form','Session', 'GoogleMap');
+    public $components = array('Session', 'Paginator');
 
-    public function login() {
-        if ($this->request->is('post')) {
-            if ($this->Auth->login()) {
-                $tutor = $this->request->data['User'];
-                $this->Session->write('Tutor.username', $tutor['username']);
-                $this->redirect(array('controller' => 'Tutor', 'action' => 'profile'));
-            }else{
-                $this->Utility->alert("Invalid username or password, try again", array('type' => 'error', 'dismissOnClick' => true));
-            }
-        }
-    }
-
-    public function logout() {
-        return $this->redirect($this->Auth->logout());
-    }
+    public $paginate = array(
+        'Request' => array(
+                'limit' => 25,
+                'order' => array(
+                                    'Request.id' => 'asc'
+                                )
+                )
+    );
 
     public function profile() {
         if ($this->request->is('post')) {
@@ -66,5 +61,67 @@ class TutorController extends AppController {
         $tutor = $this->Tutor->getTutor($this->Session->read('Tutor.username'));
         $this->Session->write('Tutor.id', $tutor['id']);
         $this->set('tutor', $tutor);
+    }
+
+    public function assignment(){
+        $this->Paginator->settings = array(
+            'Request' => array(
+                'limit' => 20,
+                'order' => array('start_date' => 'desc'),
+                'conditions' => '`Request`.`id` NOT IN (select `tutor_job`.`request_id` as `id` from `tutor_job` '.
+                                    'where `tutor_job`.`tutor_id` = '.$this->Session->read('Tutor.id').')'
+            )
+        );
+        $data = $this->Paginator->paginate('Request');
+        $this->set('data', $data);
+
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function pending(){
+        $this->Paginator->settings = array(
+            'Request' => array(
+                'limit' => 20,
+                'order' => array('start_date' => 'desc'),
+                'conditions' => '`Request`.`id` IN (select `tutor_job`.`request_id` as `id` from `tutor_job` '.
+                'where `tutor_job`.`status` = "pending" AND `tutor_job`.`tutor_id` = '.$this->Session->read('Tutor.id').')'
+            )
+        );
+        $data = $this->Paginator->paginate('Request');
+        $this->set('data', $data);
+
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function confirmed(){
+        $this->Paginator->settings = array(
+            'Request' => array(
+                'limit' => 20,
+                'order' => array('start_date' => 'desc'),
+                'conditions' => '`Request`.`id` IN (select `tutor_job`.`request_id` as `id` from `tutor_job` '.
+                'where `tutor_job`.`status` = "confirmed" AND `tutor_job`.`tutor_id` = '.$this->Session->read('Tutor.id').')'
+            )
+        );
+        $data = $this->Paginator->paginate('Request');
+        $this->set('data', $data);
+
+        if ($this->request->is('post')) {
+
+        }else{
+        }
+    }
+
+    public function applyAssignment(){
+        $this->layout = 'ajax';
+        $tutorJob = array('tutor_id'=>$this->Session->read('Tutor.id'),
+                          'request_id'=>$_POST['id']);
+        $this->TutorJob->save($tutorJob);
+        $this->autoRender = false;
     }
 }

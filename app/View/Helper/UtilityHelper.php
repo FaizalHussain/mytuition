@@ -5,7 +5,7 @@ App::uses('AreaHandlerComponent', 'Controller/Component');
 App::uses('String', 'Utility');
 
 class UtilityHelper extends AppHelper {
-	public $alertType = array('error' => 0, 'ok' => 1, 'info' => 2, 'warn' => 3);
+	public $alertType = array('ok' => 0, 'success' => 1, 'error' => 2, 'info' => 3, 'warn' => 4);
 	
 	public function ellipsis($string, $length = '30') {
 		return String::truncate($string, $length, array('ellipsis' => '...', 'exact' => false));

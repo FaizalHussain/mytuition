@@ -4,39 +4,53 @@
     <list default="true" id="3157e773-9f4c-4729-8c18-aace1b0ad4b0" name="Default" comment="" />
     <ignored path="tuition.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AppController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381114992698" ignored="false" />
-    <file path="/default.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380867889911" ignored="false" />
+    <file path="/AppController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381303276816" ignored="false" />
+    <file path="/default.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381297490005" ignored="false" />
     <file path="/index.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380612875819" ignored="false" />
-    <file path="/HomeController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381144154998" ignored="false" />
+    <file path="/HomeController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381285917869" ignored="false" />
     <file path="/routes.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380615822767" ignored="false" />
     <file path="/index.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381131955746" ignored="false" />
-    <file path="/style.css" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381124668665" ignored="false" />
-    <file path="/top_menu.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381126486562" ignored="false" />
+    <file path="/style.css" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381200525763" ignored="false" />
+    <file path="/top_menu.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381312202558" ignored="false" />
     <file path="/bootstrap.css" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380625429252" ignored="false" />
     <file path="/ParentController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380678525183" ignored="false" />
-    <file path="/request.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381135632382" ignored="false" />
+    <file path="/request.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381225047551" ignored="false" />
     <file path="/TutorRequest.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380684751597" ignored="false" />
-    <file path="/signup.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381132566533" ignored="false" />
+    <file path="/signup.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381201853540" ignored="false" />
     <file path="/a.dummy" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381115119819" ignored="false" />
-    <file path="/TutorController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381117203817" ignored="false" />
+    <file path="/TutorController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381301810824" ignored="false" />
     <file path="/tutor_login.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380768351620" ignored="false" />
     <file path="/login.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380857037940" ignored="false" />
     <file path="/alert.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380769896804" ignored="false" />
     <file path="/topmenu.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380770754994" ignored="false" />
-    <file path="/home.css" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380794911486" ignored="false" />
-    <file path="/User.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1380871597330" ignored="false" />
+    <file path="/home.css" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381300489984" ignored="false" />
+    <file path="/User.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381201632614" ignored="false" />
     <file path="/profile.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381132158393" ignored="false" />
-    <file path="/tutor.js" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381111679155" ignored="false" />
-    <file path="/Tutor.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381113294424" ignored="false" />
+    <file path="/tutor.js" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381302414199" ignored="false" />
+    <file path="/Tutor.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381203173753" ignored="false" />
     <file path="/faq.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381128517284" ignored="false" />
     <file path="/about.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381125944951" ignored="false" />
     <file path="/faq.js" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381127865824" ignored="false" />
     <file path="/why_signup.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381133123793" ignored="false" />
     <file path="/legal.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381136522855" ignored="false" />
     <file path="/contact.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381142583425" ignored="false" />
-    <file path="/Contact.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381142039102" ignored="false" />
+    <file path="/Contact.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381200845056" ignored="false" />
     <file path="/rates.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381144402707" ignored="false" />
     <file path="/tuition_rate.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381144960809" ignored="false" />
+    <file path="/Request.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381292442122" ignored="false" />
+    <file path="/custom.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381221058110" ignored="false" />
+    <file path="/welcome.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381222877338" ignored="false" />
+    <file path="/TuitionDetail.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381223279383" ignored="false" />
+    <file path="/StudentInfo.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381223307630" ignored="false" />
+    <file path="/assignment.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381292610764" ignored="false" />
+    <file path="/TutorJob.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381293381499" ignored="false" />
+    <file path="/RequestTutorJob.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381292300611" ignored="false" />
+    <file path="/pending.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381296815090" ignored="false" />
+    <file path="/confirmed.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381296823914" ignored="false" />
+    <file path="/config.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381302920931" ignored="false" />
+    <file path="/UserController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381310602922" ignored="false" />
+    <file path="/CoordinatorController.php" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381310169988" ignored="false" />
+    <file path="/create.ctp" changelist="3157e773-9f4c-4729-8c18-aace1b0ad4b0" time="1381310527602" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,43 +70,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
+      <file leaf-file-name="Coordinator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Coordinator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="13" selection-start="4103" selection-end="4103" vertical-scroll-proportion="-22.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Tutor/profile.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="44" selection-start="2951" selection-end="4393" vertical-scroll-proportion="-23.538462">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuition_rate.ctp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/View/Home/tuition_rate.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="47" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.93957347">
+            <state line="18" column="17" selection-start="842" selection-end="842" vertical-scroll-proportion="9.807693">
               <folding>
-                <element signature="e#118#145#0" expanded="true" />
-                <element signature="e#348#367#0" expanded="true" />
-                <element signature="e#405#431#0" expanded="true" />
-                <element signature="e#592#618#0" expanded="true" />
-                <element signature="e#877#903#0" expanded="true" />
-                <element signature="e#1123#1149#0" expanded="true" />
-                <element signature="e#1410#1436#0" expanded="true" />
-                <element signature="e#1698#1724#0" expanded="true" />
-                <element signature="e#1986#2012#0" expanded="true" />
-                <element signature="e#2276#2302#0" expanded="true" />
-                <element signature="e#2566#2592#0" expanded="true" />
-                <element signature="e#2853#2879#0" expanded="true" />
-                <element signature="e#3140#3166#0" expanded="true" />
+                <element signature="e#6#790#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top_menu.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Themed/Cakestrap/Elements/menu/top_menu.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="71" selection-start="7172" selection-end="7172" vertical-scroll-proportion="0.97954273">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="54" selection-start="1445" selection-end="1450" vertical-scroll-proportion="-15.038462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="30" selection-start="2025" selection-end="2044" vertical-scroll-proportion="-13.346154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoordinatorController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/CoordinatorController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="31" selection-start="1096" selection-end="1101" vertical-scroll-proportion="-14.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Coordinator/create.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="35" selection-start="478" selection-end="478" vertical-scroll-proportion="-10.461538">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,22 +150,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/webroot/css/style.css" />
-        <option value="$PROJECT_DIR$/app/View/Home/index.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Tutor/profile.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/signup.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Themed/Cakestrap/Elements/menu/top_menu.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/why_signup.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/request.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/legal.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/home.css" />
+        <option value="$PROJECT_DIR$/app/webroot/js/tutor.js" />
+        <option value="$PROJECT_DIR$/app/View/Home/config.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Helper/UtilityHelper.php" />
+        <option value="$PROJECT_DIR$/app/View/Elements/alert.ctp" />
         <option value="$PROJECT_DIR$/app/View/Home/faq.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/app/Config/email.php" />
-        <option value="$PROJECT_DIR$/app/Model/Contact.php" />
-        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/View/Home/contact.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/rates.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Home/tuition_rate.ctp" />
+        <option value="$PROJECT_DIR$/app/View/User/login.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/TutorController.php" />
+        <option value="$PROJECT_DIR$/app/Model/User.php" />
+        <option value="$PROJECT_DIR$/app/View/Coordinator/create.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Tutor/profile.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/CoordinatorController.php" />
+        <option value="$PROJECT_DIR$/app/Model/Coordinator.php" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Cakestrap/Elements/menu/top_menu.ctp" />
       </list>
     </option>
   </component>
@@ -175,6 +218,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,8 +268,30 @@
               <option name="myItemId" value="View" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tutor" />
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cakestrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,6 +310,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cakestrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cakestrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Coordinator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytuition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,7 +437,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,8 +444,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -343,10 +494,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26947704" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27267876" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -355,6 +505,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -434,143 +585,150 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/View/Themed/Cakestrap/Elements/menu/top_menu.ctp">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/alert.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="142" selection-start="2897" selection-end="2897" vertical-scroll-proportion="-15.038462">
+        <state line="2" column="15" selection-start="44" selection-end="44" vertical-scroll-proportion="0.04028436">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/why_signup.ctp">
+    <entry file="file://$PROJECT_DIR$/app/View/Helper/UtilityHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="186" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.4091456">
+        <state line="7" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.14099526">
           <folding>
-            <element signature="e#118#145#0" expanded="true" />
-            <element signature="e#462#488#0" expanded="true" />
+            <marker date="1381304429583" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/legal.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="0" selection-end="4621" vertical-scroll-proportion="0.57280385">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Home/faq.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="159" selection-start="475" selection-end="475" vertical-scroll-proportion="9.153846">
+        <state line="190" column="82" selection-start="14712" selection-end="14751" vertical-scroll-proportion="-5.5789475">
+          <folding>
+            <element signature="e#768#792#0" expanded="true" />
+            <element signature="e#1475#1499#0" expanded="true" />
+            <element signature="e#2001#2025#0" expanded="true" />
+            <element signature="e#2460#2484#0" expanded="true" />
+            <element signature="e#3789#3813#0" expanded="true" />
+            <element signature="e#4352#4376#0" expanded="true" />
+            <element signature="e#5669#5693#0" expanded="true" />
+            <element signature="e#6547#6571#0" expanded="true" />
+            <element signature="e#7225#7249#0" expanded="true" />
+            <element signature="e#8123#8147#0" expanded="true" />
+            <element signature="e#8695#8719#0" expanded="true" />
+            <element signature="e#9779#9803#0" expanded="true" />
+            <element signature="e#10449#10473#0" expanded="true" />
+            <element signature="e#11844#11868#0" expanded="true" />
+            <element signature="e#12511#12535#0" expanded="true" />
+            <element signature="e#14063#14087#0" expanded="true" />
+            <element signature="e#14727#14751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/User/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="37" selection-start="331" selection-end="331" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/signup.ctp">
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/topmenu.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="136" selection-start="2823" selection-end="3080" vertical-scroll-proportion="0.73815167">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/request.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Controller/TutorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="201" selection-start="3212" selection-end="3366" vertical-scroll-proportion="0.6522262">
+        <state line="44" column="6" selection-start="0" selection-end="4229" vertical-scroll-proportion="-18.076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/email.php">
+    <entry file="file://$PROJECT_DIR$/app/Model/Tutor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="29" selection-start="1596" selection-end="1596" vertical-scroll-proportion="-14.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="18" selection-start="1385" selection-end="1385" vertical-scroll-proportion="-9.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1372" vertical-scroll-proportion="-0.0">
+        <state line="20" column="4" selection-start="0" selection-end="3252" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="13" selection-start="4103" selection-end="4103" vertical-scroll-proportion="-22.653847">
+        <state line="76" column="9" selection-start="2684" selection-end="2743" vertical-scroll-proportion="-12.423077">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Contact.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Tutor/profile.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="869" selection-end="887" vertical-scroll-proportion="-12.192307">
+        <state line="14" column="0" selection-start="666" selection-end="666" vertical-scroll-proportion="0.28640193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="96" selection-start="2011" selection-end="2011" vertical-scroll-proportion="-17.423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/CoordinatorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="31" selection-start="1096" selection-end="1101" vertical-scroll-proportion="-14.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Coordinator/create.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="478" selection-end="478" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Coordinator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="842" selection-end="842" vertical-scroll-proportion="9.807693">
           <folding>
             <element signature="e#6#790#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/contact.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="172" selection-start="2022" selection-end="2022" vertical-scroll-proportion="-23.23077">
-          <folding>
-            <element signature="e#118#145#0" expanded="true" />
-            <element signature="e#769#794#0" expanded="true" />
-            <element signature="e#2252#2272#0" expanded="true" />
-            <element signature="e#2397#2417#0" expanded="true" />
-            <element signature="e#2666#2693#0" expanded="true" />
-            <element signature="e#3324#3351#0" expanded="true" />
-            <element signature="e#3753#3780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/about.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="0" selection-end="2213" vertical-scroll-proportion="-4.576923">
+        <state line="55" column="30" selection-start="2025" selection-end="2044" vertical-scroll-proportion="-13.346154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/rates.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="0" selection-end="404" vertical-scroll-proportion="-7.1923075">
-          <folding>
-            <element signature="e#118#145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Tutor/profile.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="44" selection-start="2951" selection-end="4393" vertical-scroll-proportion="-23.538462">
+        <state line="36" column="54" selection-start="1445" selection-end="1450" vertical-scroll-proportion="-15.038462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/tuition_rate.ctp">
+    <entry file="file://$PROJECT_DIR$/app/View/Themed/Cakestrap/Elements/menu/top_menu.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="47" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.93957347">
+        <state line="113" column="71" selection-start="7172" selection-end="7172" vertical-scroll-proportion="0.97954273">
           <folding>
-            <element signature="e#118#145#0" expanded="true" />
-            <element signature="e#348#367#0" expanded="true" />
-            <element signature="e#405#431#0" expanded="true" />
-            <element signature="e#592#618#0" expanded="true" />
-            <element signature="e#877#903#0" expanded="true" />
-            <element signature="e#1123#1149#0" expanded="true" />
-            <element signature="e#1410#1436#0" expanded="true" />
-            <element signature="e#1698#1724#0" expanded="true" />
-            <element signature="e#1986#2012#0" expanded="true" />
-            <element signature="e#2276#2302#0" expanded="true" />
-            <element signature="e#2566#2592#0" expanded="true" />
-            <element signature="e#2853#2879#0" expanded="true" />
-            <element signature="e#3140#3166#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

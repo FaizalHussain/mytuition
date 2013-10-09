@@ -11,7 +11,7 @@ echo $this->Html->css('home', null, array('inline' => false));
         <?php
         echo $this->Form->create('User', array(
             'url' => array(
-                'controller' => 'Tutor',
+                'controller' => 'User',
                 'action' => 'login'),
             'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
         ));

@@ -18,20 +18,70 @@ App::uses('AppModel', 'Model');
 
 class Tutor extends AppModel {
     public $useTable = "tutor";
+    public $hasMany = array('TutorJob');
     public $validate = array(
         'name' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'A name is required'
+                'message' => 'Please enter your name'
             )
         ),
         'nric' => array(
             'required' => array(
                 'rule' => array('notEmpty'),
-                'message' => 'An NRIC is required'
+                'message' => 'Please enter your NRIC'
+            )
+        ),
+        'contact' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Please enter your contact number'
+            )
+        ),
+        'email' => array(
+            'email_not_blank' => array(
+                'rule' => 'notEmpty',
+                'message' => 'Please enter your email'
+            ),
+            'email_not_valid' => array(
+                'rule' => 'email',
+                'message' => 'Please provide a valid email address.'
+            ),
+            'unique' => array(
+                'rule'    => 'isUnique',
+                'message' => 'This email has already been used.'
+            )
+        ),
+        'password' => array(
+            'password_not_blank' => array(
+                'rule' => 'notEmpty',
+                'message' => 'Please enter your password'
+            ),
+            'password_length_valid' => array(
+                'rule' => array('minLength', 6),
+                'message' => 'Password must be at least 6 characters long.',
+            )
+        ),
+        'cPassword' => array(
+            'password_not_blank' => array(
+                'rule' => 'notEmpty',
+                'message' => 'Please enter your Re-Enter password'
+            ),
+            'password_match_valid' => array(
+                'rule' => 'checkPasswords',
+                'message'=>'Password & Re-Enter Password must be match.'
             )
         )
     );
+
+    public function checkPasswords()     // to check pasword and confirm password
+    {
+        if(strcmp($this->data['Tutor']['password'],$this->data['Tutor']['cPassword']) == 0 )
+        {
+            return true;
+        }
+        return false;
+    }
 
     public function getTutor($username, $str=null) {
         $tutor = $this->find('all', array('conditions' => array('tutor.email' => $username )));

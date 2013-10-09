@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Profile Summary</a>
+        <?php echo $this->Html->link('Profile Summary', array('controller' => 'Tutor', 'action' => 'profile'), array('class' => 'navbar-brand', 'target' => '_self')); ?>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,11 +16,11 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Your Assignments <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="#">Pending Assignments</a></li>
-                    <li><a href="#">Confirmed Assignments</a></li>
+                    <li><?php echo $this->Html->link('Pending Assignments', array('controller' => 'Tutor', 'action' => 'pending')); ?></li>
+                    <li><?php echo $this->Html->link('Confirmed Assignments', array('controller' => 'Tutor', 'action' => 'confirmed')); ?></li>
                 </ul>
             </li>
-            <li><a href="#">Assignments Available</a></li>
+            <li><?php echo $this->Html->link('Assignments Available', array('controller' => 'Tutor', 'action' => 'assignment')); ?></li>
         </ul>
     </div><!-- /.navbar-collapse -->
 </nav>

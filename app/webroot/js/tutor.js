@@ -106,3 +106,16 @@ function switchTutor(){
     }
 }
 
+function applyAssignment(id){
+    $.ajax({
+        type: "post",
+        url: getRootURL() + "Tutor/applyAssignment",
+        data: {id:id},
+        success: function(data){
+            document.getElementById("ApplyButton"+id).removeAttribute("onClick");
+            document.getElementById("ApplyButton"+id).style = "height:30px;background-color: #FF0000;";
+            document.getElementById("ApplyButton"+id).value = "Assignment Applied";
+        }
+    });
+}
+

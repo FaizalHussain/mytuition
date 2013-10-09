@@ -16,13 +16,19 @@ have received a copy of the GNU General Public License along with this program. 
 
 App::uses('AppModel', 'Model');
 
-class Contact extends AppModel {
-    public $useTable = false;
+class Coordinator extends AppModel {
+    public $useTable = "coordinator";
     public $validate = array(
         'name' => array(
-            'name_not_blank' => array(
-                'rule' => 'notEmpty',
+            'required' => array(
+                'rule' => array('notEmpty'),
                 'message' => 'Please enter your name'
+            )
+        ),
+        'contact' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'Please enter your Contact'
             )
         ),
         'email' => array(
@@ -33,19 +39,40 @@ class Contact extends AppModel {
             'email_not_valid' => array(
                 'rule' => 'email',
                 'message' => 'Please provide a valid email address.'
+            ),
+            'unique' => array(
+                'rule'    => 'isUnique',
+                'message' => 'This email has already been used.'
             )
         ),
-        'subject' => array(
-            'subject_not_blank' => array(
+        'password' => array(
+            'password_not_blank' => array(
                 'rule' => 'notEmpty',
-                'message' => 'Please enter your subject'
+                'message' => 'Please enter your password'
+            ),
+            'password_length_valid' => array(
+                'rule' => array('minLength', 6),
+                'message' => 'Password must be at least 6 characters long.',
             )
         ),
-        'message' => array(
-            'name_not_blank' => array(
+        'cPassword' => array(
+            'password_not_blank' => array(
                 'rule' => 'notEmpty',
-                'message' => 'Please enter your message'
+                'message' => 'Please enter your Re-Enter password'
+            ),
+            'password_match_valid' => array(
+                'rule' => 'checkPasswords',
+                'message'=>'Password & Re-Enter Password must be match.'
             )
         )
     );
+
+    public function checkPasswords()     // to check pasword and confirm password
+    {
+        if(strcmp($this->data['Coordinator']['password'],$this->data['Coordinator']['cPassword']) == 0 )
+        {
+            return true;
+        }
+        return false;
+    }
 }

@@ -9,9 +9,9 @@ echo $this->Html->css('home', null, array('inline' => false));
         </div>
 
         <?php
-        echo $this->Form->create('ContactForm', array(
+        echo $this->Form->create('Contact', array(
             'url' => array('controller' => 'Home', 'action' => 'contact'),
-            'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
+            'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default'),
         ));
         ?>
 
@@ -26,16 +26,16 @@ echo $this->Html->css('home', null, array('inline' => false));
                     <div class="panel-heading">Contact Us Form</div>
                     <div class="panel-body">
                         <label>Name</label>
-                        <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control', 'required' => true)); ?></div>
+                        <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                         <br/>
                         <label>Email</label>
-                        <div class="value"><?php echo $this->Form->input('email', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control', 'required' => true)); ?></div>
+                        <div class="value"><?php echo $this->Form->input('email', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                         <br/>
                         <label>Subject</label>
-                        <div class="value"><?php echo $this->Form->input('subject', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control', 'required' => true)); ?></div>
+                        <div class="value"><?php echo $this->Form->input('subject', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                         <br/>
                         <label>Message</label>
-                        <div class="value"><?php echo $this->Form->input('message', array('type' => 'textarea', 'style'=>'width: 400px;', 'class'=>'form-control', 'required' => true)); ?></div>
+                        <div class="value"><?php echo $this->Form->input('message', array('type' => 'textarea', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                         <br>
                         <div class="controls view_controls">
                             <input type="submit" name="Submit" value="<?php echo 'Send a message'; ?>" class="button" style="height:30px;" />

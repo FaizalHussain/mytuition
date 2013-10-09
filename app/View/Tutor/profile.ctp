@@ -13,14 +13,6 @@ echo $this->Html->script('tutor', false);
 
         <p><h3><small><b>Do take note that you should be ensuring your tutor profile is as complete as possible. There will be more assignment opportunities if you provide a comprehensive tutor profile. All further liaisons will be made through this tutor’s portal, email or via phone should there be any assignment opportunities available for you.</b></small></h3></p>
 
-        <?php
-        echo $this->Form->create('Tutor', array(
-            'url' => array(
-                'controller' => 'Tutor',
-                'action' => 'login'),
-            'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'default')
-        ));
-        ?>
 
         <div class="panel panel-default">
             <!-- Default panel contents -->

@@ -42,7 +42,7 @@ $cakeDescription = __d('cake_dev', 'Straits Tutors');
 			echo $this->Html->script('libs/jquery-1.10.2.min');
 			echo $this->Html->script('libs/bootstrap.min');
             echo $this->Html->script('libs/bootstrap-editable.js');
-
+            echo sprintf('<script type="text/javascript" src="%s%s"></script>', $this->webroot, 'Home/getJSConfig');
 			echo $this->fetch('script');
 		?>
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
@@ -51,8 +51,8 @@ $cakeDescription = __d('cake_dev', 'Straits Tutors');
 	<body>
 
 		<div id="main-container">
-		
-			<?php echo $this->element('menu/top_menu'); ?>
+
+            <?php echo $this->element('menu/top_menu'); ?>
 
 			<div id="content" class="container">
                 <?php echo $this->fetch('content'); ?>

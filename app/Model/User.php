@@ -18,6 +18,7 @@ App::uses('AppModel', 'Model');
 
 class User extends AppModel {
     public $useTable = "users";
+    public $hasMany = array('Tutor','Coordinator');
     public $validate = array(
         'username' => array(
             'required' => array(

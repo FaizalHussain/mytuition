@@ -18,7 +18,7 @@ echo $this->Html->script('faq', false);
             <div class="panel-heading">FAQ (Parents)</div>
             <div class="panel-body">
                 <ol type="1">
-                    <li><h4><a id="showA1" href="#"> 1. How do I request for a tutor?</a></h4>
+                    <li><h4><a id="showA1" onmouseover="" style="cursor: pointer;"> 1. How do I request for a tutor?</a></h4>
                         <ul style="padding-left: 20px;" id="a1">
                             <li><h4><small><b>
                                         You may do so by filling up the request form under "Tutor Request".<br/><br/>
@@ -29,7 +29,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA2" href="#">2. How long will it take for Straits Tutors to process my request?</a></h4>
+                    <li><h4><a id="showA2" onmouseover="" style="cursor: pointer;">2. How long will it take for Straits Tutors to process my request?</a></h4>
                         <ul style="padding-left: 20px;" id="a2">
                             <li><h4><small><b>
                                             Our tuition coordinators strive to process your request within 2 working days.
@@ -37,7 +37,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA3" href="#">3. Do I have to pay for the tutor matching services?</a></h4>
+                    <li><h4><a id="showA3" onmouseover="" style="cursor: pointer;">3. Do I have to pay for the tutor matching services?</a></h4>
                         <ul style="padding-left: 20px;" id="a3">
                             <li><h4><small><b>
                                             No, it is free of charge.
@@ -45,7 +45,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA4" href="#">4. How much commission does Straits Tutors charge?</a></h4>
+                    <li><h4><a id="showA4" onmouseover="" style="cursor: pointer;">4. How much commission does Straits Tutors charge?</a></h4>
                         <ul style="padding-left: 20px;" id="a4">
                             <li><h4><small><b>
                                             Straits Tutors would collect 50% of the first month’s fee as commission for each successful match-up. The following example illustrates how the commission is calculated:<br/><br/>
@@ -59,7 +59,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA5" href="#">5. When do I have to make payment for the commission?</a></h4>
+                    <li><h4><a id="showA5" onmouseover="" style="cursor: pointer;">5. When do I have to make payment for the commission?</a></h4>
                         <ul style="padding-left: 20px;" id="a5">
                             <li><h4><small><b>
                                 We will collect the commission 2 weeks after the commencement of the first lesson. An invoice will be sent to you via email or regular mail.
@@ -67,7 +67,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA6" href="#">6. How do I pay Straits Tutors the commission for the tuition assignment?</a></h4>
+                    <li><h4><a id="showA6" onmouseover="" style="cursor: pointer;">6. How do I pay Straits Tutors the commission for the tuition assignment?</a></h4>
                         <ul style="padding-left: 20px;" id="a6">
                             <li><h4><small><b>
                                             We accept the following modes of payment:<br/>
@@ -82,7 +82,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA7" href="#">7. What happens if I find the tutor to be unsuitable on the first lesson?</a></h4>
+                    <li><h4><a id="showA7" onmouseover="" style="cursor: pointer;">7. What happens if I find the tutor to be unsuitable on the first lesson?</a></h4>
                         <ul style="padding-left: 20px;" id="a7">
                             <li><h4><small><b>
                                             In such an instance, kindly inform us immediately through our hotline. Our Tuition Coordinators will seek to understand the situation better and provide alternative arrangements.<br/><br/>
@@ -92,7 +92,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA8" href="#">8. Can I verify the tutor’s qualifications and credentials?</a></h4>
+                    <li><h4><a id="showA8" onmouseover="" style="cursor: pointer;">8. Can I verify the tutor’s qualifications and credentials?</a></h4>
                         <ul style="padding-left: 20px;" id="a8">
                             <li><h4><small><b>
                                             Yes, you can. You may request to view the assigned tutor’s qualifications prior to the commencement of the tuition assignment. You may also request for the tutors to bring along genuine copies of their qualifications on the first lesson.
@@ -100,7 +100,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showA9" href="#">9. Where will the tuition lessons be held?</a></h4>
+                    <li><h4><a id="showA9" onmouseover="" style="cursor: pointer;">9. Where will the tuition lessons be held?</a></h4>
                         <ul style="padding-left: 20px;" id="a9">
                             <li><h4><small><b>
                                             By default, the lessons will be conducted at the student’s home. However, kindly inform our Tuition Coordinators if you have any other preferences (e.g. lessons to be conducted at tutor’s home or lessons to be conducted as a group)
@@ -116,7 +116,7 @@ echo $this->Html->script('faq', false);
             <div class="panel-heading">FAQ (Tutors)</div>
             <div class="panel-body">
                 <ol type="1">
-                    <li><h4><a id="showB1" href="#">1. What are the minimum qualifications that I must be to sign up as tutor?</a></h4>
+                    <li><h4><a id="showB1" onmouseover="" style="cursor: pointer;">1. What are the minimum qualifications that I must be to sign up as tutor?</a></h4>
                         <ul style="padding-left: 20px;" id="b1">
                             <li><h4><small><b>
                                             You must be at least 18 and above and holding an A-Level and/or a Diploma certificateto register with us as a tutor.
@@ -124,7 +124,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB2" href="#">2. How do I register as a tutor with Straits Tutors?</a></h4>
+                    <li><h4><a id="showB2" onmouseover="" style="cursor: pointer;">2. How do I register as a tutor with Straits Tutors?</a></h4>
                         <ul style="padding-left: 20px;" id="b2">
                             <li><h4><small><b>
                                             You may register for a tutor account under the "Tutor Registration" page.<br/><br/>
@@ -134,7 +134,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB3" href="#">3. Is there any cost involved in signing up for an account?</a></h4>
+                    <li><h4><a id="showB3" onmouseover="" style="cursor: pointer;">3. Is there any cost involved in signing up for an account?</a></h4>
                         <ul style="padding-left: 20px;" id="b3">
                             <li><h4><small><b>
                                             No, registration with Straits Tutors is free of charge.<br/><br/>
@@ -143,7 +143,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB4" href="#">4. Upon registering for a Tutor’s Account, how long does it take for me to be given tuition assignments?</a></h4>
+                    <li><h4><a id="showB4" onmouseover="" style="cursor: pointer;">4. Upon registering for a Tutor’s Account, how long does it take for me to be given tuition assignments?</a></h4>
                         <ul style="padding-left: 20px;" id="b4">
                             <li><h4><small><b>
                                     Unfortunately, we are unable to stipulate a timeline as to when you will be given tuition assignments. This is due to the fact that for every request for tuition by parents, we analyse the needs and preferences of the parent and the child, so as to give them a tailored match-up, which is specific to their requirements.<br/><br/>
@@ -157,7 +157,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB5" href="#">5. How do I know if I am shortlisted for a tuition assignment?</a></h4>
+                    <li><h4><a id="showB5" onmouseover="" style="cursor: pointer;">5. How do I know if I am shortlisted for a tuition assignment?</a></h4>
                         <ul style="padding-left: 20px;" id="b5">
                             <li><h4><small><b>
                                 Once you have been found suitable for a tuition assignment, our Tuition Coordinators will contact you via phone to confirm the details of the assignment. An SMS containing the details of the tuition assignment will also be sent to you.
@@ -165,7 +165,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB6" href="#">6. How much commission does Straits Tutors charge?</a></h4>
+                    <li><h4><a id="showB6" onmouseover="" style="cursor: pointer;">6. How much commission does Straits Tutors charge?</a></h4>
                         <ul style="padding-left: 20px;" id="b6">
                             <li><h4><small><b>
                                     Straits Tutors would collect 50% of the first month’s fee as commission for each successful match-up. The following example illustrates how the commission is calculated:<br/><br/>
@@ -180,7 +180,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB7" href="#">7. What if I cannot make it on the agreed date for the first lesson?</a></h4>
+                    <li><h4><a id="showB7" onmouseover="" style="cursor: pointer;">7. What if I cannot make it on the agreed date for the first lesson?</a></h4>
                         <ul style="padding-left: 20px;" id="b7">
                             <li><h4><small><b>
                                 In such a situation, you mustinform the parents of the student and Straits Tutors at least 3 days in advance, with proper reason. You should also have the relevant documents (e.g. Medical Certificates) to explain your absence.
@@ -188,7 +188,7 @@ echo $this->Html->script('faq', false);
                         </ul>
                     </li>
                     <br>
-                    <li><h4><a id="showB8" href="#">8. What happens if the parent of the student finds me unsuitable on the first lesson?</a></h4>
+                    <li><h4><a id="showB8" onmouseover="" style="cursor: pointer;">8. What happens if the parent of the student finds me unsuitable on the first lesson?</a></h4>
                         <ul style="padding-left: 20px;" id="b8">
                             <li><h4><small><b>
                                             In such an instance, kindly inform us immediately through our hotline. Our Tuition Coordinators will seek to understand the situation better and provide alternative arrangements.

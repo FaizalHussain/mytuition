@@ -8,7 +8,7 @@ echo $this->Html->css('home', null, array('inline' => false));
         </div>
 
         <?php
-        echo $this->Form->create('Signup', array(
+        echo $this->Form->create('Tutor', array(
             'url' => array('controller' => 'Home', 'action' => 'signup'),
             'inputDefaults' => array('label' => false, 'div' => false, 'class' => 'label')
         ));
@@ -26,10 +26,10 @@ echo $this->Html->css('home', null, array('inline' => false));
             <div class="panel-heading">Account Information</div>
             <div class="panel-body">
                 <label>Name</label>
-                <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'required'=>true, 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
+                <div class="value"><?php echo $this->Form->input('name', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
                 <label>NRIC</label>
-                <div class="value"><?php echo $this->Form->input('nric', array('type' => 'text', 'required'=>true, 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
+                <div class="value"><?php echo $this->Form->input('nric', array('type' => 'text', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
                 <label>Contact Number</label>
                 <div class="value"><?php echo $this->Form->input('contact', array('type' => 'number', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
@@ -41,7 +41,7 @@ echo $this->Html->css('home', null, array('inline' => false));
                 <div class="value"><?php echo $this->Form->input('password', array('type' => 'password', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
                 <label>Re-Enter Password</label>
-                <div class="value"><?php echo $this->Form->input('password2', array('type' => 'password', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
+                <div class="value"><?php echo $this->Form->input('cPassword', array('type' => 'password', 'style'=>'width: 400px;', 'class'=>'form-control')); ?></div>
                 <br/>
                 <?php echo $this->Captcha->render(array('captchaType'=>'image',
                                                             'jquerylib'=>true,

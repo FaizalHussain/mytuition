@@ -16,33 +16,23 @@ have received a copy of the GNU General Public License along with this program. 
 
 App::uses('AppModel', 'Model');
 
-class Request extends AppModel {
-    public $useTable = "request";
-    public $hasOne = array('StudentInfo','TuitionDetail');
-    public $hasMany = array('TutorJob');
+class TutorJob extends AppModel {
+    public $useTable = "tutor_job";
+    public $belongsTo = array('Request','Tutor');
     public $validate = array(
-        'name' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'Please enter your name'
-            )
-        ),
-        'contact' => array(
-            'required' => array(
-                'rule' => array('notEmpty'),
-                'message' => 'Please enter your contact'
-            )
-        ),
-        'email' => array(
-            'email_not_blank' => array(
-                'rule' => 'notEmpty',
-                'message' => 'Please enter your email'
-            ),
-            'email_not_valid' => array(
-                'rule' => 'email',
-                'message' => 'Please provide a valid email address.'
+        "tutor_id"=>array(
+            "unique"=>array(
+                "rule"=>array("checkUnique", array("tutor_id", "request_id")),
+                "message"=>"Same job for that tutor already existed"
             )
         )
     );
+
+    public function getTutorJobById($id) {
+        $list = $this->find('list',array(
+                            'fields' => array('TutorJob.request_id'),
+                            'conditions'=>array('TutorJob.tutor_id' => $id)));
+        return $list;
+    }
 
 }

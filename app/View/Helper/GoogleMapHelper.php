@@ -42,13 +42,13 @@ class GoogleMapHelper extends AppHelper {
 	var $defaultWidth = "800px";								// Width of the map
 	var $defaultHeight = "800px";								// Height of the map
 	var $defaultStyle = "style";								// CSS style for the map canvas
-	var $defaultZoom = 6;									// Default zoom
+	var $defaultZoom = 6;									    // Default zoom
 	var $defaultType = 'HYBRID';								// Type of map (ROADMAP, SATELLITE, HYBRID or TERRAIN)
-	var $defaultCustom = "";								// Any other map option not mentioned before and available for the map.
+	var $defaultCustom = "";								    // Any other map option not mentioned before and available for the map.
 																						// For example 'mapTypeControl: true' (http://code.google.com/apis/maps/documentation/javascript/controls.html)
 	var $defaultLatitude = 40.69847032728747;						// Default latitude if the browser doesn't support localization or you don't want localization
 	var $defaultLongitude = -73.9514422416687;						// Default longitude if the browser doesn't support localization or you don't want localization
-	var $defaultLocalize = true;								// Boolean to localize your position or not
+	var $defaultLocalize = false;								// Boolean to localize your position or not
 	var $defaultMarker = true;								// Boolean to put a marker in the position or not
 	var $defaultMarkerTitle = 'My Position';						// Default marker title (HTML title tag)
 	var $defaultMarkerIcon = 'http://google-maps-icons.googlecode.com/files/home.png'; 	// Default icon of the marker
